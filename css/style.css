@@ -6,7 +6,20 @@ body {
 
 .Panel {
     background-image: url(/img/stacked-waves-haikei.svg);
+    background-repeat: calc("stacked-waves-haikei"*2);
     width: 80%;
     height: 400px;
     border-radius: 25px;
+    margin: 10%;
+    margin-top: 25%;
 }
+
+.header {
+    border-radius: 25px 25px 0px 0px;
+}
+.content{
+    height: 86%;
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+}
+
